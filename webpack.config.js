@@ -7,7 +7,7 @@ const autoprefixer = require('autoprefixer');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const isProd = NODE_ENV === 'production';
-const helpers = require('./config/helpers')
+const helpers = require('./config/helpers');
 
 let config = {
 	context:__dirname,
